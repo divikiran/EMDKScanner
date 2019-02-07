@@ -1,23 +1,17 @@
 ﻿<Properties StartupConfiguration="{A59D827B-830E-4980-A128-6DC28A40D53F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="EDMKScannerProj Status">
+  <MonoDevelop.Ide.Workbench ActiveDocument="EDMKScannerProj/Viewmodels/BaseViewModel.cs">
     <Files>
-      <File FileName="EDMKScannerProj/MainPage.xaml.cs" Line="8" Column="15" />
-      <File FileName="EDMKScannerProj/MainPage.xaml" Line="7" Column="7" />
-      <File FileName="EDMKScannerProj.Android/Properties/AndroidManifest.xml" Line="5" Column="49" />
-      <File FileName="EDMKScannerProj.Android/Resources/values/Strings.xml" Line="8" Column="13" />
-      <File FileName="EDMKScannerProj.Android/Resources/values/Dimens.xml" Line="5" Column="13" />
-      <File FileName="EDMKScannerProj.Android/MainActivity.cs" Line="49" Column="31" />
-      <File FileName="EDMKScannerProj.Android/Services/ScannerService.cs" Line="13" Column="41" />
-      <File FileName="EDMKScannerProj/Services/IScannerService.cs" Line="8" Column="37" />
-      <File FileName="EDMKScannerProj/Services/Models/OnBarcodeScannedEventArgs.cs" Line="9" Column="68" />
-      <File FileName="EDMKScannerProj/Services/Models/ScannedBarCode.cs" Line="12" Column="8" />
-      <File FileName="EDMKScannerProj/Viewmodels/MainViewModel.cs" Line="20" Column="63" />
-      <File FileName="EDMKScannerProj/Viewmodels/BaseViewModel.cs" Line="14" Column="15" />
-      <File FileName="EDMKScannerProj Status" />
+      <File FileName="EDMKScannerProj/App.xaml.cs" Line="9" Column="27" />
+      <File FileName="EDMKScannerProj.Android/Services/ScannerService.cs" Line="13" Column="34" />
+      <File FileName="EDMKScannerProj/Viewmodels/BaseViewModel.cs" Line="13" Column="41" />
+      <File FileName="EDMKScannerProj/Viewmodels/MainViewModel.cs" Line="7" Column="6" />
+      <File FileName="EDMKScannerProj/MainPage.xaml.cs" Line="13" Column="59" />
+      <File FileName="EDMKScannerProj.Android/MainActivity.cs" Line="10" Column="2" />
+      <File FileName="EDMKScannerProj/MainPage.xaml" Line="1" Column="39" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.EDMKScannerProj.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.ItemProperties.EDMKScannerProj.Android PreferredExecutionTarget="Android.17220522501258" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

@@ -32,8 +32,6 @@ namespace EDMKScannerProj.Droid.Services
         public void OnOpened(EMDKManager emdkManager)
         {
             _emdkManager = emdkManager;
-
-
             InitScanner();
         }
 
@@ -102,7 +100,7 @@ namespace EDMKScannerProj.Droid.Services
                 try
                 {
                     if (_scanner.IsEnabled && !_scanner.IsReadPending)
-        {
+                    {
                         _scanner.Read();
                     }
                 }
@@ -166,10 +164,7 @@ namespace EDMKScannerProj.Droid.Services
 
                         _scanner.Data -= scanner_Data;
                         _scanner.Status -= scanner_Status;
-
                         _scanner.Disable();
-
-
                     }
                     catch (ScannerException e)
                     {
@@ -197,8 +192,6 @@ namespace EDMKScannerProj.Droid.Services
             {
                 //RunOnUiThread(() => statusView.Text = status);
             }
-
-
         }
 
         void displaydata(string data)
@@ -210,7 +203,7 @@ namespace EDMKScannerProj.Droid.Services
             }
             else
             {
-               // RunOnUiThread(() => dataView.Text += data + "\n");
+                // RunOnUiThread(() => dataView.Text += data + "\n");
             }
 
 

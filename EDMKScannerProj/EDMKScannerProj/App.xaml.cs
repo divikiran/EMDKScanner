@@ -1,4 +1,5 @@
 ﻿using System;
+using EDMKScannerProj.Services;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -7,16 +8,18 @@ namespace EDMKScannerProj
 {
     public partial class App : Application
     {
+        public static IScannerService Scanner { get; set; }
+
         public App()
         {
             InitializeComponent();
-
             MainPage = new MainPage();
         }
 
         protected override void OnStart()
         {
             // Handle when your app starts
+            //Scanner.InitScanner();
         }
 
         protected override void OnSleep()

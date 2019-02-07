@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using EDMKScannerProj.Services;
+using EDMKScannerProj.Viewmodels;
 using Xamarin.Forms;
 
 namespace EDMKScannerProj
@@ -12,6 +9,8 @@ namespace EDMKScannerProj
         public MainPage()
         {
             InitializeComponent();
+            //var sccan = DependencyService.Get<IScannerService>();
+            BindingContext = new MainViewModel(App.Scanner);
         }
     }
 }

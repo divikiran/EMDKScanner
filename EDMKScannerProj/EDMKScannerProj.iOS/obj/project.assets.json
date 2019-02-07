@@ -730,19 +730,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/divi/.nuget/packages/": {}
+    "/Users/divikiranravela/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/divi/Documents/Github/EMDKScanner/EDMKScannerProj/EDMKScannerProj.iOS/EDMKScannerProj.iOS.csproj",
+      "projectUniqueName": "/Users/divikiranravela/Documents/GitHub/EMDKScanner/EDMKScannerProj/EDMKScannerProj.iOS/EDMKScannerProj.iOS.csproj",
       "projectName": "EDMKScannerProj.iOS",
-      "projectPath": "/Users/divi/Documents/Github/EMDKScanner/EDMKScannerProj/EDMKScannerProj.iOS/EDMKScannerProj.iOS.csproj",
-      "packagesPath": "/Users/divi/.nuget/packages/",
-      "outputPath": "/Users/divi/Documents/Github/EMDKScanner/EDMKScannerProj/EDMKScannerProj.iOS/obj",
+      "projectPath": "/Users/divikiranravela/Documents/GitHub/EMDKScanner/EDMKScannerProj/EDMKScannerProj.iOS/EDMKScannerProj.iOS.csproj",
+      "packagesPath": "/Users/divikiranravela/.nuget/packages/",
+      "outputPath": "/Users/divikiranravela/Documents/GitHub/EMDKScanner/EDMKScannerProj/EDMKScannerProj.iOS/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/divi/.config/NuGet/NuGet.Config"
+        "/Users/divikiranravela/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
@@ -753,8 +753,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/divi/Documents/Github/EMDKScanner/EDMKScannerProj/EDMKScannerProj/EDMKScannerProj.csproj": {
-              "projectPath": "/Users/divi/Documents/Github/EMDKScanner/EDMKScannerProj/EDMKScannerProj/EDMKScannerProj.csproj"
+            "/Users/divikiranravela/Documents/GitHub/EMDKScanner/EDMKScannerProj/EDMKScannerProj/EDMKScannerProj.csproj": {
+              "projectPath": "/Users/divikiranravela/Documents/GitHub/EMDKScanner/EDMKScannerProj/EDMKScannerProj/EDMKScannerProj.csproj"
             }
           }
         }

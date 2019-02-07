@@ -1,25 +1,18 @@
-﻿using System;
-
+﻿
 using Android.App;
 using Android.Content.PM;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
 using Android.OS;
-
-using Symbol.XamarinEMDK;
-using Symbol.XamarinEMDK.Barcode;
 using EDMKScannerProj.Droid.Services;
+using Symbol.XamarinEMDK;
 using Xamarin.Forms;
-using EDMKScannerProj.Services;
 
 namespace EDMKScannerProj.Droid
 {
-    [Activity(Label = "EDMKScannerProj", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity(Name = "EDMKName.MainActivity", Label = "EDMKScannerProj", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
-        public ScannerService Scanner { get; set; }
 
+        public ScannerService Scanner { get; set; }
         protected override void OnCreate(Bundle savedInstanceState)
         {
             TabLayoutResource = Resource.Layout.Tabbar;
@@ -27,7 +20,21 @@ namespace EDMKScannerProj.Droid
 
             base.OnCreate(savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+
             Scanner = DependencyService.Get<ScannerService>();
+
+
+            var results = EMDKManager.GetEMDKManager(Android.App.Application.Context, Scanner);
+            if (results.StatusCode != EMDKResults.STATUS_CODE.Success)
+            {
+                //statusView.Text = "Status: EMDKManager object creation failed ...";
+            }
+            else
+            {
+                //statusView.Text = "Status: EMDKManager object creation succeeded ...";
+            }
+            //App application = new App();
+            App.Scanner = Scanner;
             LoadApplication(new App());
         }
 
@@ -35,6 +42,7 @@ namespace EDMKScannerProj.Droid
         {
             base.OnResume();
             Scanner.InitScanner();
+            //InitScanner();
         }
 
         protected override void OnPause()
@@ -47,9 +55,6 @@ namespace EDMKScannerProj.Droid
         {
             base.OnDestroy();
             Scanner.Destroy();
-            
-
-
         }
     }
 }
