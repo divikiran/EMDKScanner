@@ -1,0 +1,10 @@
+*.obj/
+*.bin/
+*.xs/
+*.cache
+EDMKScannerProj/.vs/EDMKScannerProj/xs/sqlite3/storage.ide-wal
+EDMKScannerProj/EDMKScannerProj.iOS/EDMKScannerProj.iOS.csproj
+EDMKScannerProj/EDMKScannerProj.iOS/obj/EDMKScannerProj.iOS.csproj.nuget.cache
+EDMKScannerProj/EDMKScannerProj.iOS/obj/EDMKScannerProj.iOS.csproj.nuget.g.props
+EDMKScannerProj/EDMKScannerProj.iOS/obj/EDMKScannerProj.iOS.csproj.nuget.g.targets
+EDMKScannerProj/EDMKScannerProj.iOS/obj/project.assets.json
