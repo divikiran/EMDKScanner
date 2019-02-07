@@ -9,20 +9,20 @@ using Xamarin.Forms;
 
 namespace EDMKScannerProj.Droid
 {
-    [Application(Name = "EDMKName.MainApplication")]
-    [UsesLibrary(Name = "com.symbol.emdk")]
-    public class MainApplication : Android.App.Application
-    {
+    //[Application(Name = "EDMKName.MainApplication")]
+    ////[UsesLibrary(Name = "com.symbol.emdk")]
+    //public class MainApplication : Android.App.Application
+    //{
 
-        public MainApplication()
-        {
+    //    public MainApplication()
+    //    {
 
-        }
-        public MainApplication(System.IntPtr javaReference, Android.Runtime.JniHandleOwnership trasfer) : base(javaReference, trasfer)
-        {
+    //    }
+    //    public MainApplication(System.IntPtr javaReference, Android.Runtime.JniHandleOwnership trasfer) : base(javaReference, trasfer)
+    //    {
 
-        }
+    //    }
 
-    }
+    //}
 }
 

@@ -30,6 +30,11 @@ namespace EDMKScannerProj.Viewmodels
             _scannerService.OnBarcodeScanned += _scannerService_OnBarcodeScanned;
         }
 
+        //~BaseViewModel()
+        //{
+        //    _scannerService.OnBarcodeScanned -= _scannerService_OnBarcodeScanned;
+        //}
+
         void _scannerService_OnBarcodeScanned(object sender, Services.Models.OnBarcodeScannedEventArgs e)
         {
             var scannedBarcode = e?.BarCodes?.FirstOrDefault();

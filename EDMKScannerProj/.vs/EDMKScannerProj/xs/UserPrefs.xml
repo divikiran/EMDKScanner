@@ -1,20 +1,24 @@
 ﻿<Properties StartupConfiguration="{A59D827B-830E-4980-A128-6DC28A40D53F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="EDMKScannerProj/Viewmodels/BaseViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="EDMKScannerProj.Android/MainApplication.cs">
     <Files>
       <File FileName="EDMKScannerProj/App.xaml.cs" Line="9" Column="27" />
       <File FileName="EDMKScannerProj.Android/Services/ScannerService.cs" Line="13" Column="34" />
       <File FileName="EDMKScannerProj/Viewmodels/BaseViewModel.cs" Line="13" Column="41" />
       <File FileName="EDMKScannerProj/Viewmodels/MainViewModel.cs" Line="7" Column="6" />
-      <File FileName="EDMKScannerProj/MainPage.xaml.cs" Line="13" Column="59" />
-      <File FileName="EDMKScannerProj.Android/MainActivity.cs" Line="10" Column="2" />
-      <File FileName="EDMKScannerProj/MainPage.xaml" Line="1" Column="39" />
+      <File FileName="EDMKScannerProj/MainPage.xaml.cs" Line="12" Column="68" />
+      <File FileName="EDMKScannerProj.Android/MainActivity.cs" Line="24" Column="1" />
+      <File FileName="EDMKScannerProj/MainPage.xaml" Line="7" Column="15" />
+      <File FileName="EDMKScannerProj.Android/MainApplication.cs" Line="11" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.EDMKScannerProj.Android PreferredExecutionTarget="Android.17220522501258" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/divikiranravela/Documents/GitHub/EMDKScanner/EDMKScannerProj/EDMKScannerProj.Android/MainApplication.cs" relfile="EDMKScannerProj.Android/MainApplication.cs" line="18" column="1" />
+      <Breakpoint file="/Users/divikiranravela/Documents/GitHub/EMDKScanner/EDMKScannerProj/EDMKScannerProj.Android/MainApplication.cs" relfile="EDMKScannerProj.Android/MainApplication.cs" line="22" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
